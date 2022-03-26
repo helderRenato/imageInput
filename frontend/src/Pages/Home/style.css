@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*HEADER*/
+.navBar{
+    border-bottom: 1px inset #d9d9d9;
+}
+.navBar nav{
+    display: flex;
+    align-items: flex-end;
+}
+.navBar li{
+    list-style: none;
+}
+
+/*IMAGE*/
+
+/*INPUT*/
+.inputImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.inputImage .selectImage{
+    background-color: #7D92FE;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 50px;
+}
+
+.inputImage .selectImage:hover{
+     background-color: #7c89ca;
+}
+
+.inputImage .selectImage p{
+    margin-left: 2px;
+}
+
+.inputImage .type{
+    display: none;
+}
+
+.addIcon{
+    margin: 13px;
+}
+ 
+ .submitButton{
+     background-color: #7D92FE;
+     border-radius: 10px;
+     cursor: pointer;
+     border: none;
+     height: 30px;
+     width: 100px;
+}
+
+.submitButton:hover{
+    background-color: #7c89ca;   
+}
+
+/*VIEW*/
+.viewImage{
+    
+}
+
+/*PREVIEW*/
+.thumbnail{
+    margin: 10px;
+}
+
+.thumbnail img{
+    width: 200px;
+    height: auto;
+}
+
+
